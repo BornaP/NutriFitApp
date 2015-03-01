@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E482BC3-BB3B-41C6-AAAB-9E794A5BFDD8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NutriFitApp.Main</RootNamespace>
+    <AssemblyName>NutriFitApp.Main</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddActivityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddActivityForm.Designer.cs">
+      <DependentUpon>AddActivityForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddMealForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMealForm.Designer.cs">
+      <DependentUpon>AddMealForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DietSummaryView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DietSummaryView.Designer.cs">
+      <DependentUpon>DietSummaryView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewActivitesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewActivitesForm.Designer.cs">
+      <DependentUpon>ViewActivitesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewConsumedMealsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewConsumedMealsForm.Designer.cs">
+      <DependentUpon>ViewConsumedMealsForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddActivityForm.resx">
+      <DependentUpon>AddActivityForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddMealForm.resx">
+      <DependentUpon>AddMealForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DietSummaryView.resx">
+      <DependentUpon>DietSummaryView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ViewActivitesForm.resx">
+      <DependentUpon>ViewActivitesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewConsumedMealsForm.resx">
+      <DependentUpon>ViewConsumedMealsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NutriFitApp.Common\NutriFitApp.Common.csproj">
+      <Project>{b588a377-c265-4b8f-a679-67bc0d9992d6}</Project>
+      <Name>NutriFitApp.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NutriFitApp.Controllers\NutriFitApp.Controllers.csproj">
+      <Project>{18abee38-209f-4732-9ff3-9201545e55e4}</Project>
+      <Name>NutriFitApp.Controllers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NutriFitApp.Model\NutriFitApp.Model.csproj">
+      <Project>{871141da-455f-42cb-955b-3d1509a95699}</Project>
+      <Name>NutriFitApp.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

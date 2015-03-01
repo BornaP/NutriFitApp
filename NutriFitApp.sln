@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutriFitApp.Main", "NutriFitApp.Main\NutriFitApp.Main.csproj", "{7E482BC3-BB3B-41C6-AAAB-9E794A5BFDD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutriFitApp.Model", "NutriFitApp.Model\NutriFitApp.Model.csproj", "{871141DA-455F-42CB-955B-3D1509A95699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutriFitApp.Common", "NutriFitApp.Common\NutriFitApp.Common.csproj", "{B588A377-C265-4B8F-A679-67BC0D9992D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutriFitApp.Controllers", "NutriFitApp.Controllers\NutriFitApp.Controllers.csproj", "{18ABEE38-209F-4732-9FF3-9201545E55E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutriFitApp.Test", "NutriFitApp.Test\NutriFitApp.Test.csproj", "{5036B0FD-9F2E-4F4D-8414-C7342801A50B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E482BC3-BB3B-41C6-AAAB-9E794A5BFDD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E482BC3-BB3B-41C6-AAAB-9E794A5BFDD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E482BC3-BB3B-41C6-AAAB-9E794A5BFDD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E482BC3-BB3B-41C6-AAAB-9E794A5BFDD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{871141DA-455F-42CB-955B-3D1509A95699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871141DA-455F-42CB-955B-3D1509A95699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871141DA-455F-42CB-955B-3D1509A95699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871141DA-455F-42CB-955B-3D1509A95699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B588A377-C265-4B8F-A679-67BC0D9992D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B588A377-C265-4B8F-A679-67BC0D9992D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B588A377-C265-4B8F-A679-67BC0D9992D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B588A377-C265-4B8F-A679-67BC0D9992D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18ABEE38-209F-4732-9FF3-9201545E55E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18ABEE38-209F-4732-9FF3-9201545E55E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18ABEE38-209F-4732-9FF3-9201545E55E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18ABEE38-209F-4732-9FF3-9201545E55E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5036B0FD-9F2E-4F4D-8414-C7342801A50B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5036B0FD-9F2E-4F4D-8414-C7342801A50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5036B0FD-9F2E-4F4D-8414-C7342801A50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5036B0FD-9F2E-4F4D-8414-C7342801A50B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

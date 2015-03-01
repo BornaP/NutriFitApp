@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Repository">
+    <Position X="1.002" Y="0.952" Height="0.313" Width="0.785" />
+  </Comment>
+  <Comment CommentText="Repository">
+    <Position X="4.415" Y="0.827" Height="0.313" Width="0.785" />
+  </Comment>
+  <Comment CommentText="Singleton">
+    <Position X="9.421" Y="4.555" Height="0.339" Width="0.749" />
+  </Comment>
+  <Comment CommentText="Value object">
+    <Position X="9.144" Y="1.324" Height="0.354" Width="0.892" />
+  </Comment>
+  <Comment CommentText="Value object">
+    <Position X="8.586" Y="7.398" Height="0.354" Width="1.13" />
+  </Comment>
+  <Comment CommentText="Value object">
+    <Position X="7.096" Y="4.262" Height="0.354" Width="0.971" />
+  </Comment>
+  <Class Name="NutriFitApp.Model.Activity">
+    <Position X="1.75" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAIAAAACAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Activity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NutriFitApp.Model.AerobicExercise">
+    <Position X="0.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AerobicExercise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NutriFitApp.Model.AnaerobicExercise">
+    <Position X="3" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnaerobicExercise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NutriFitApp.Model.BalancedDiet">
+    <Position X="16.5" Y="8" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>BalancedDiet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NutriFitApp.Model.DietRegime">
+    <Position X="13.25" Y="5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>gAAABAAAAAAAAAAAAAACAAAAAAAAAAAQBAAAAAAAICA=</HashCode>
+      <FileName>DietRegime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NutriFitApp.Model.FlexibilityExercise">
+    <Position X="5.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlexibilityExercise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NutriFitApp.Model.Food">
+    <Position X="5" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAACAAAAAgAAAA=</HashCode>
+      <FileName>Food.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="nutritionalValue" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NutriFitApp.Model.MassGainDiet">
+    <Position X="9.75" Y="8" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>MassGainDiet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NutriFitApp.Model.Nutrients">
+    <Position X="7.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAIAABACEAAQABAAAAAAACAAAAA=</HashCode>
+      <FileName>Nutrients.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NutriFitApp.Model.Person">
+    <Position X="8.75" Y="4.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAEABAEAAAAAAAAAAAAQAAAAAAAAAQAAAAEAAAAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="personalInfo" />
+      <Field Name="dietRegime" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NutriFitApp.Model.PersonInfo">
+    <Position X="10" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQACAAEAAgAAAACAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>PersonInfo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gender" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NutriFitApp.Model.ActivityRepository">
+    <Position X="1.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAcQAAAAAAAAAgAAAAgAAQAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\ActivityRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="activitesRepo" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="NutriFitApp.Model.FoodRepository">
+    <Position X="5.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQMBAAAAAAAAAAAAAAAAAQAABAAAAUAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\FoodRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="foodRepo" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="NutriFitApp.Model.WeightLossDiet">
+    <Position X="13.25" Y="8" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>WeightLossDiet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="NutriFitApp.Model.Gender">
+    <Position X="12.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>GendersEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
