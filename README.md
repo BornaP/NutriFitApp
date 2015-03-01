@@ -5,5 +5,5 @@ Application was built as a course assignment on "Object-oriented Design". The ma
 
 Therefore, all calculations in application are truly fictious and arbitrary. Do not take them seriously.
 
-Additionally, I implemented Oberserver design pattern so that every change made by adding or deleting entries is automatically updated in all related views.
+Additionally, I implemented Observer design pattern so that every change made by adding or deleting entries is automatically updated in all related views.
 
